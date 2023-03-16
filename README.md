@@ -2,13 +2,13 @@
 
 This is the respository that holds all the code I've written while taking Unity's Create with Code courses as a part of the [Junior Programmer pathway!](https://learn.unity.com/pathway/junior-programmer)
 
-The 5 Prototypes are based off the tutorials that the course provides, as well as the Mod the Cube, Counting Prototype, and Debug Project. I plan on publishing all of these projects to the 
+The 5 Prototypes are based off the tutorials that the course provides, as well as the Mod the Cube, Counting Prototype, and Debug Project. I plan on publishing all of these projects to Unity so that I can provide gameplay links here soon.
 
 Star Baker, however, is a game I created myself as I took the course. You can play it on itch.io here: https://grachay.itch.io/star-baker
 
 ##### Table of Contents  
 [Star Baker](#star-baker)  
-<br />[Counting Prototype](#counting)
+[Counting Prototype](#counting)
 <br />[Prototype 1](#1)
 <br />[Prototype 2](#2)
 <br />[Prototype 3](#3)
@@ -36,6 +36,11 @@ While I was testing the game, I found that if a player tried to grab a stardust 
 I realized that the reason this was happening was because the stardust powerup was kept track of via a boolean and a Coroutine. The boolean would be set to true, the Coroutine would start and would wait for 4 seconds (the length of the powerup), and then the boolean would be set to false. If the powerup was activated while the Coroutine was waiting, it would set to false before the second powerup ended. 
 
 I fixed this by stopping and restarting the Coroutine whenever a new powerup is activated. This doesn't work always, and I'd like to go back in and fix it soon, but it works most of the time.
+
+### Flipping Animation
+A similar problem occurred when the player crashed into an asteroid immediately after crashing into one - the flipping animation that plays wouldn't always trigger. I thought this was caused by the same problem at first, as a Coroutine starts when the player crashes into an asteroid, but implementing the same fix by stopping and restarting the Coroutine when the player crashes into an asteroid didn't seem to completely fix the problem.
+
+After doing some research online and playing around with the animation itself, I found that unchecking the "exit time" box on the transition from the Running to the Flipping animation fixed the problem. This was because it was running through the entire Running animation before transitioning to the Flipping animation, but the Running animation is rather long. So sometimes, the Flipping animation wouldn't get to run before the Coroutine was done, and it wouldn't happen at all.
 
 All of the assets from the game were downloaded for free from the Unity Asset Store.
 
