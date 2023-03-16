@@ -8,14 +8,14 @@ Star Baker, however, is a game I created myself as I took the course. You can pl
 
 ##### Table of Contents  
 [Star Baker](#star-baker)  
-[Counting Prototype](#counting)
-[Prototype 1](#1)
-[Prototype 2](#2)
-[Prototype 3](#3)
-[Prototype 4](#4)
-[Prototype 5](#5)
-[Debugging Project](#debug)
-[Mod the Cube](#mod)
+<br />[Counting Prototype](#counting)
+<br />[Prototype 1](#1)
+<br />[Prototype 2](#2)
+<br />[Prototype 3](#3)
+<br />[Prototype 4](#4)
+<br />[Prototype 5](#5)
+<br />[Debugging Project](#debug)
+<br />[Mod the Cube](#mod)
 
 <a name="star-baker"/>
 ## Star Baker
