@@ -18,7 +18,7 @@ Star Baker, however, is a game I created myself as I took the course. You can pl
 <br />[Mod the Cube](#mod)
 
 <a name="star-baker"/>
-## Star Baker
+### Star Baker
 
 Here's a video of gameplay:
 
@@ -46,7 +46,7 @@ After doing some research online and playing around with the animation itself, I
 All of the assets from the game were downloaded for free from the Unity Asset Store.
 
 <a name="counting"/>
-## Counting Prototype
+### Counting Prototype
 This counting prototype was completed as part of the final mission checkpoint for the Create with Code course on Unity. We were given a box that counts items put inside of it and tasked with creating a game that includes counting in its functionality.
 
 My idea was to create a game in which ingredients fell from above the screen, and the player has to sort them into different bowls. This simulates baking. The counting could come in when only a certain number of each ingredient is required for a recipe, so the extra ingredients have to go in the trash.
@@ -58,32 +58,32 @@ In the near future, I will go back in and finish this prototype, but I wanted to
 You can play Color Sort here: https://play.unity.com/mg/other/v1-x5cl1l
 
 <a name="1"/>
-## Prototype 1 - The Driver's Seat
+### Prototype 1 - The Driver's Seat
 This is a game where you play as a driver of a red truck! We used this project to gain understanding of the camera, player controls, and using Unity assets.
 
 <a name="2"/>
-## Prototype 2 Food Fight!
+### Prototype 2 Food Fight!
 This is a top-down view game where the player shoots pizza at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
 
 <a name="3"/>
-## Prototype 3 Running Through the Forest
+### Prototype 3 Running Through the Forest
 This is a side-scrolling game where the player has to jump to avoid obstacles that approach from the right-side of the screen. Here, I learned about using audio and particle effects to enhance gameplay, as well as making the background repeating.
 
 <a name="4"/>
-## Prototype 4 Luigi Wins by Doing Nothing
+### Prototype 4 Luigi Wins by Doing Nothing
 In this game, the camera follows the player, who is represented as a ball that has to avoid oncoming waves of enemy balls without falling off the edge of the map. Throughout this project I learned about gameplay mechanics like increasing difficulty through waves, powerups, and better camera control.
 
 <a name="5"/>
-## Prototype 5 - Clicky Mouse
+### Prototype 5 - Clicky Mouse
 This game requires the player to tap the foods that jump up from the bottom of the screen - and avoid the skulls. This project was my favorite as I learned about UI, menus, difficulty settings, and keeping score.
 
 <a name="debug"/>
-## Debug Project
+### Debug Project
 This was a simple project where we were provided buggy code that we had to fix. I had fun with this one, as simple as it was!
 You can check out my finished debug project here: https://play.unity.com/mg/other/build-9tb
 
 <a name="mod"/>
-## Mod the Cube
+### Mod the Cube
 In this project, the cube's features like rotation and color change over time. This was a simpler, more self-guided project.
 
 Thanks for reading!
