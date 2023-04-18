@@ -47,13 +47,13 @@ You can play Color Sort here: https://play.unity.com/mg/other/v1-x5cl1l
 ## Prototype 1 - The Driver's Seat
 This is a game where you play as a driver of a red truck! We used this project to gain understanding of the camera, player controls, and using Unity assets.
 
-## Prototype 2 Food Fight!
+## Prototype 2 - Food Fight!
 This is a top-down view game where the player shoots pizza at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
 
-## Prototype 3 Running Through the Forest
+## Prototype 3 - Running Through the Forest
 This is a side-scrolling game where the player has to jump to avoid obstacles that approach from the right-side of the screen. Here, I learned about using audio and particle effects to enhance gameplay, as well as making the background repeating.
 
-## Prototype 4 Luigi Wins by Doing Nothing
+## Prototype 4 - Luigi Wins by Doing Nothing
 In this game, the camera follows the player, who is represented as a ball that has to avoid oncoming waves of enemy balls without falling off the edge of the map. Throughout this project I learned about gameplay mechanics like increasing difficulty through waves, powerups, and better camera control.
 
 ## Prototype 5 - Clicky Mouse
