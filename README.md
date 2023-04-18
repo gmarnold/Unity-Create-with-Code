@@ -34,6 +34,9 @@ After doing some research online and playing around with the animation itself, I
 All of the assets from the game were downloaded for free from the Unity Asset Store.
 
 ## Counting Prototype
+
+![colorsort](https://user-images.githubusercontent.com/50962446/232927417-7c770c9e-52d7-49e0-87e7-182e0030c9fa.PNG)
+
 This counting prototype was completed as part of the final mission checkpoint for the Create with Code course on Unity. We were given a box that counts items put inside of it and tasked with creating a game that includes counting in its functionality.
 
 My idea was to create a game in which ingredients fell from above the screen, and the player has to sort them into different bowls. This simulates baking. The counting could come in when only a certain number of each ingredient is required for a recipe, so the extra ingredients have to go in the trash.
