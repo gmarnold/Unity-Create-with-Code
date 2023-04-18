@@ -20,12 +20,13 @@ Star Baker, however, is a game I created myself as I took the course. You can pl
 <a name="star-baker"/>
 ## Star Baker
 
-Here's a screenshot of gameplay:
-![image](https://user-images.githubusercontent.com/50962446/224832525-49abb61d-6b2c-4af5-bfec-17c857a0e088.png)
+Here's a video of gameplay:
+
+![video](https://user-images.githubusercontent.com/50962446/232926442-03b4d9b5-d7b7-4594-8013-80ce042cbcd1.mp4)
 
 This game is an action side-scroller where the player controls the astronaut with the arrow keys and has to avoid randomly generated asteroids that spawn from off-screen. I faced a lot of challenges while coding this project, which are listed below.
 
-### The Rotation
+### Rotation
 It was really hard to get the objects to rotate across the screen in a satisfying way while also making sure that they didn't stray from their intended paths. My first instinct with this was to apply transform.Rotate with a randomly generated vector to each object, but when I did this, the objects rotated off the screen. I reasoned that this was happening because the vector was generated when the objects were created, and thus they were rotating around that point instead of rotating while moving through space.
 
 Instead of using transform.Rotate, I was able to reach my desired effect by applying a torque force instead. I was still able to use a randomly generated vector to create different forces for each object, and I think it looks pretty good.
@@ -57,26 +58,32 @@ In the near future, I will go back in and finish this prototype, but I wanted to
 You can play Color Sort here: https://play.unity.com/mg/other/v1-x5cl1l
 
 <a name="1"/>
-## Prototype 1
+## Prototype 1 - The Driver's Seat
+This is a game where you play as a driver of a red truck! We used this project to gain understanding of the camera, player controls, and using Unity assets.
 
 <a name="2"/>
-## Prototype 2
+## Prototype 2 Food Fight!
+This is a top-down view game where the player shoots pizza at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
 
 <a name="3"/>
-## Prototype 3
+## Prototype 3 Running Through the Forest
+This is a side-scrolling game where the player has to jump to avoid obstacles that approach from the right-side of the screen. Here, I learned about using audio and particle effects to enhance gameplay, as well as making the background repeating.
 
 <a name="4"/>
-## Prototype 4
+## Prototype 4 Luigi Wins by Doing Nothing
+In this game, the camera follows the player, who is represented as a ball that has to avoid oncoming waves of enemy balls without falling off the edge of the map. Throughout this project I learned about gameplay mechanics like increasing difficulty through waves, powerups, and better camera control.
 
 <a name="5"/>
-## Prototype 5
+## Prototype 5 - Clicky Mouse
+This game requires the player to tap the foods that jump up from the bottom of the screen - and avoid the skulls. This project was my favorite as I learned about UI, menus, difficulty settings, and keeping score.
 
 <a name="debug"/>
 ## Debug Project
-
+This was a simple project where we were provided buggy code that we had to fix. I had fun with this one, as simple as it was!
 You can check out my finished debug project here: https://play.unity.com/mg/other/build-9tb
 
 <a name="mod"/>
 ## Mod the Cube
+In this project, the cube's features like rotation and color change over time. This was a simpler, more self-guided project.
 
 Thanks for reading!
