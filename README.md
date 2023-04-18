@@ -26,7 +26,7 @@ I realized that the reason this was happening was because the stardust powerup w
 
 I fixed this by stopping and restarting the Coroutine whenever a new powerup is activated. This doesn't work always, and I'd like to go back in and fix it soon, but it works most of the time.
 
-## Flipping Animation
+### Flipping Animation
 A similar problem occurred when the player crashed into an asteroid immediately after crashing into one - the flipping animation that plays wouldn't always trigger. I thought this was caused by the same problem at first, as a Coroutine starts when the player crashes into an asteroid, but implementing the same fix by stopping and restarting the Coroutine when the player crashes into an asteroid didn't seem to completely fix the problem.
 
 After doing some research online and playing around with the animation itself, I found that unchecking the "exit time" box on the transition from the Running to the Flipping animation fixed the problem. This was because it was running through the entire Running animation before transitioning to the Flipping animation, but the Running animation is rather long. So sometimes, the Flipping animation wouldn't get to run before the Coroutine was done, and it wouldn't happen at all.
