@@ -57,7 +57,7 @@ This is a game where you play as a driver of a red truck! We used this project t
 
 ![foodfight](https://user-images.githubusercontent.com/50962446/232928365-e4cff361-b92c-497d-9658-b91ddc942019.png)
 
-This is a top-down view game where the player shoots pizza at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
+This is a top-down view game where the player shoots cookies at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
 
 ## Prototype 3 - Running Through the Forest
 
