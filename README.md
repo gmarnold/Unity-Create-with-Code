@@ -48,22 +48,38 @@ In the near future, I will go back in and finish this prototype, but I wanted to
 You can play Color Sort here: https://play.unity.com/mg/other/v1-x5cl1l
 
 ## Prototype 1 - The Driver's Seat
+
+![driversseat](https://user-images.githubusercontent.com/50962446/232928344-d880d533-97f4-4043-ba6a-0fec9678151b.png)
+
 This is a game where you play as a driver of a red truck! We used this project to gain understanding of the camera, player controls, and using Unity assets.
 
 ## Prototype 2 - Food Fight!
+
+![foodfight](https://user-images.githubusercontent.com/50962446/232928365-e4cff361-b92c-497d-9658-b91ddc942019.png)
+
 This is a top-down view game where the player shoots pizza at animals coming from the top of the screen in order to feed them. In this project, I learned basic gameplay features, randomly generating game objects, and collision detection. 
 
 ## Prototype 3 - Running Through the Forest
+
+![frunning](https://user-images.githubusercontent.com/50962446/232928389-f442e4f2-392a-4d59-b21b-8ddb04617f32.png)
+
 This is a side-scrolling game where the player has to jump to avoid obstacles that approach from the right-side of the screen. Here, I learned about using audio and particle effects to enhance gameplay, as well as making the background repeating.
 
 ## Prototype 4 - Luigi Wins by Doing Nothing
+
+![image](https://user-images.githubusercontent.com/50962446/232928168-0503f301-a270-41c6-a7eb-c72cf4b21136.png)
+
 In this game, the camera follows the player, who is represented as a ball that has to avoid oncoming waves of enemy balls without falling off the edge of the map. Throughout this project I learned about gameplay mechanics like increasing difficulty through waves, powerups, and better camera control.
 
 ## Prototype 5 - Clicky Mouse
+
+![clickymouse](https://user-images.githubusercontent.com/50962446/232928398-9df71a45-d57e-4d65-90c0-eb49031be874.png)
+
 This game requires the player to tap the foods that jump up from the bottom of the screen - and avoid the skulls. This project was my favorite as I learned about UI, menus, difficulty settings, and keeping score.
 
 ## Debug Project
 This was a simple project where we were provided buggy code that we had to fix. I had fun with this one, as simple as it was!
+
 You can check out my finished debug project here: https://play.unity.com/mg/other/build-9tb
 
 ## Mod the Cube
