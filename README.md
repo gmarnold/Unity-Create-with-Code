@@ -22,7 +22,7 @@ Star Baker, however, is a game I created myself as I took the course. You can pl
 
 Here's a video of gameplay:
 
-![video](https://user-images.githubusercontent.com/50962446/232926442-03b4d9b5-d7b7-4594-8013-80ce042cbcd1.mp4)
+https://user-images.githubusercontent.com/50962446/232926442-03b4d9b5-d7b7-4594-8013-80ce042cbcd1.mp4
 
 This game is an action side-scroller where the player controls the astronaut with the arrow keys and has to avoid randomly generated asteroids that spawn from off-screen. I faced a lot of challenges while coding this project, which are listed below.
 
