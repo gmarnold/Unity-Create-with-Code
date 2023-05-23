@@ -88,10 +88,7 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.CompareTag("Obstacle") || other.gameObject.CompareTag("Red Meteor"))
         {
             // Instantiate the explosion particle effect in the obstacle's position & play it
-            //Instantiate(explosionParticle, other.transform.position, other.transform.rotation);
-            //explosionParticle.Play();
             Destroy(Instantiate(explosionParticle, other.transform.position, other.transform.rotation).gameObject, explosionTime);
-            //explosionParticle.Play();
 
             // Play the sound effect as well
             playerAudio.PlayOneShot(explosionSound, volume);
